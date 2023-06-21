@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="discover.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Discover</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="navbar">
+            <a href="index.html" id="Back2Home"><h1 id="navbar-logo">Ellens Eats</h1></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/index.html" class="nav-links">Home</a></li>
+                <li><a href="#" class="nav-links">About Me</a></li>
+                <li><a href="#" class="nav-links">Recipes</a></li>
+                <li><a href="#" class="nav-links">Contact Me</a></li>
+                <li><a href="discover.html" class="nav-links nav-links-btn">Discover</a></li>
+            </ul>
+        </nav>    
+    </div>
+    <script src="app.js"></script>
+<!-- Image Gallery -->
+<!--  -->
+    <div class="services-section">
+        <div class="services-heading">
+            <h1>Discover New Recipe Ideas Here!</h1>
+        </div>
+        
+        <div class="services">
+            <div class="services-cell">
+                <a href="#"><img src="/AllImages/Unsplash Photos/Jolluf:African.jpg" alt="Jollof Rice" class="services-cell_img"></a>
+                <div class="services-cell_text">African</div>
+            </div>
+            <div class="services-cell">
+                <img src="/AllImages/Unsplash Photos/Breakfasts.jpg" alt="Breakfasts" class="services-cell_img">
+                <div class="services-cell_text">Breakfasts</div>
+            </div>
+            <div class="services-cell">
+                <img src="/AllImages/Unsplash Photos/Dinner.jpg" alt="Steak Dinner With Vegetables" class="services-cell_img">
+                <div class="services-cell_text">Dinners</div>
+            </div>
+            
+            <div class="services-cell">
+                <a href="/Kids Picks/Home/kidspicks.html">
+                        <img src="/AllImages/Unsplash Photos/jodie-morgan-v4IwVaaxoFo-unsplash.jpg" alt="Puff Puff" class="services-cell_img">
+                    <div class="services-cell_text">Kids Picks</div>
+                </a>
+            </div>
+            <div class="services-cell">
+                <img src="/AllImages/Unsplash Photos/Rice With Meat.jpg" alt="Rice With Meat" class="services-cell_img">
+                <div class="services-cell_text">Favorites</div>
+            </div>
+            <div class="services-cell">
+                <img src="/AllImages/Unsplash Photos/Air Fryer.jpg" alt="Chicken Nuggets" class="services-cell_img">
+                <div class="services-cell_text">Air Fryer</div>
+            </div>
+            <div class="services-cell">
+                <img src="/AllImages/Unsplash Photos/Desserts.jpg" alt="Muffins" class="services-cell_img">
+                <div class="services-cell_text">Desserts</div>
+
+            <!-- Try-->
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Slider main container -->
+<div class="container">
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      
+      
+      <div class="swiper-slide"><img src="/AllImages/New SLider Images/Better Toast.jpg"></div>
+      <div class="swiper-slide"><img src="/AllImages/New SLider Images/EditedOats.jpg"></div>
+      <div class="swiper-slide"><img src="/AllImages/New SLider Images/Fried Rice.jpg"></div>
+      <div class="swiper-slide"><img src="/AllImages/New SLider Images/LeafyPuffPuff.jpg"></div>
+
+        
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+
+<!-- Footer 
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="#">about me</a></li>
+                    <li><a href="#">Tips</a></li>
+                    <li><a href="#">Print Recipes</a></li>
+                    <li><a href="#">Add Things</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">nathan</a></li>
+                    <li><a href="#">Joshua</a></li>
+                    <li><a href="#">Mama</a></li>
+                    <li><a href="#">Baba</a></li>
+                    <li><a href="#">Caleb</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Add Section Here</h4>
+                <ul>
+                    <li><a href="#">Nathan</a></li>
+                    <li><a href="#">Caleb</a></li>
+                    <li><a href="#">Joshua</a></li>
+                    <li><a href="#">baba</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+-->
+</body>
+</html>
